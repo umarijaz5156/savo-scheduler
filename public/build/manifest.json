@@ -1,0 +1,42 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-c532b5ad.css",
+    "isEntry": true,
+    "src": "resources/css/tailwind.css"
+  },
+  "resources/css/custom.css": {
+    "file": "assets/custom-44495bce.css",
+    "isEntry": true,
+    "src": "resources/css/custom.css"
+  },
+  "resources/css/tailwind.css": {
+    "file": "assets/app-c532b5ad.css",
+    "isEntry": true,
+    "src": "resources/css/tailwind.css"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-949a4dcc.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  },
+  "resources/js/bundle.js": {
+    "file": "assets/bundle-b928b8fc.js",
+    "isEntry": true,
+    "src": "resources/js/bundle.js"
+  },
+  "resources/js/custom.js": {
+    "file": "assets/custom-66a91ece.js",
+    "isEntry": true,
+    "src": "resources/js/custom.js"
+  },
+  "resources/js/sal.min.css": {
+    "file": "assets/sal.min-f47d27a2.css",
+    "isEntry": true,
+    "src": "resources/js/sal.min.css"
+  },
+  "resources/js/sal.min.js": {
+    "file": "assets/sal.min-0a909ce3.js",
+    "isEntry": true,
+    "src": "resources/js/sal.min.js"
+  }
+}

@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+html {
+  background-color: #f5efe7;
+}
+html,
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+* {
+  font-family: "Montserrat";
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+.meeting::-webkit-scrollbar {
+  width: 1rem;
+}
+
+.meeting::-webkit-scrollbar-thumb {
+  height: 4rem;
+  border-radius: 0.5rem;
+  border: 4px solid transparent;
+  background-clip: content-box;
+  background-color: #f5941ec0;
+}
+.meeting::-webkit-scrollbar-thumb:hover {
+  background-color: #f5941e4d;
+}
+
+.meeting::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  pointer-events: auto;
+  -webkit-appearance: none;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+}
+
+.benefit-list {
+  list-style-image: url(../public/images/ticklist.png);
+}
+
+@keyframes show-transition {
+  0% {
+    transform: translateY(20%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+@keyframes show-text {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes press {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+h1 {
+  color: #5a514e;
+  font-weight: 600;
+}
+#map-canvas {
+  height: 600px;
+  width: 100%;
+}
+
+@media screen and (max-width: 650px) {
+  #map-canvas {
+    height: 450px;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 445px) {
+  .steps {
+    background-size: 417px !important;
+  }
+  #step-3 {
+    background-size: 370px !important;
+  }
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 300ms ease-in-out;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
